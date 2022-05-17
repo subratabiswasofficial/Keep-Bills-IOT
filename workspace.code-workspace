@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "Keep-Bills-IOT",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.associations": {
+      "*.ejs": "html",
+      "random": "cpp",
+      "memory": "cpp"
+    }
+  }
+}
