@@ -14,7 +14,7 @@ ESP8266WiFiMulti WiFiMulti;
 #define LED 2
 #define WIFI_SSID "DIGISOL"
 #define WIFI_KEY "12345699"
-#define SENSOR 14
+#define SENSOR 14 // D5
 
 bool ledState = false;
 Ticker ticker;
@@ -48,7 +48,7 @@ IRAM_ATTR void detectsMovement()
   // }
   // c_counter = 0;
   // t_counter = 0;
-  // Serial.println("BLINK !!!");
+  Serial.println("BLINK !!!");
   ++counter;
   // t_counter = millis();
 }
@@ -159,6 +159,7 @@ void loop()
       Serial.printf("Wifi Not Connected !\n");
     }
 
+    // // if the connection is HTTP
     // if ((WiFiMulti.run() == WL_CONNECTED))
     // {
     //   // WiFiClient client;
