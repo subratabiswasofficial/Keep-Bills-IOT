@@ -9,7 +9,10 @@
     "files.associations": {
       "*.ejs": "html",
       "random": "cpp",
-      "memory": "cpp"
+      "memory": "cpp",
+      "*.tcc": "cpp",
+      "string": "cpp",
+      "string_view": "cpp"
     }
   }
 }
