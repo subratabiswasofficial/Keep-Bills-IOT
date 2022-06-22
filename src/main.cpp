@@ -12,7 +12,7 @@
 ESP8266WiFiMulti WiFiMulti;
 
 #define LED 2
-#define WIFI_SSID "DIGISOL"
+#define WIFI_SSID "SUBRATA"
 #define WIFI_KEY "12345699"
 #define SENSOR 14 // D5
 
